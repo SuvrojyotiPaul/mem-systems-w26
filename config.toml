@@ -1,4 +1,4 @@
-base_url = "https://khale.github.io/mem-systems-w26"
+base_url = "https://khale.github.io/mem-systems-w26/"
 compile_sass = true
 build_search_index = false
 
