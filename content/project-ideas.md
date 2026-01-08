@@ -89,5 +89,7 @@ you might approximate a memory hierarchy using the core-local memories.
 - Investigate how a state-of-the-art consensus protocol, e.g. Raft or HotStuff, is affected by far memory (CXL) latencies. 
 - Explore using GPU memory (or accelerator memory for some other device) as a far/disaggregated memory tier 
 - Apply [paged attention](https://arxiv.org/pdf/2309.06180) to newer open-source AI models. 
-- Explore hardware support for paged attention or [vAttention](vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention)
+- Explore hardware support for paged attention or [vAttention](https://arxiv.org/abs/2405.04437)
+- Explore ways to improve KVCache performance in LLMs using disaggregated memory/CXL emulation
+- Implement a log-structured OS on top of CXL, similar to [NrOS](https://www.usenix.org/conference/osdi21/presentation/bhardwaj)
 
