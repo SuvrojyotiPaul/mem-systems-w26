@@ -7,10 +7,12 @@ feed_filenames = ["rss.xml"]
 
 title = "CS/ECE 4/599"
 
-[markdown]
-highlight_code = true
-highlight_theme = "subway-madrid"
-smart_punctuation = true
+#[markdown.highlighting]
+#highlighting = true
+#style = "class"
+#light_theme = "base16-ocean-light"
+#dark_theme = "base16-ocean-dark"
+#smart_punctuation = true
 
 [extra]
 favicon = "/img/favicon.ico"
