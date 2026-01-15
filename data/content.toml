@@ -27,7 +27,7 @@ paper_slides = "https://canvas.oregonstate.edu/courses/2028992/files/115966217?m
 [[classes]]
 lesson = 4
 #title = "Hardware: Memory Controllers"
-leader = "Lab 2: Derek Werbowy & Kabir Vidyarthi"
+leader = "Lab 2: Suvrojyoti Paul, Derek Werbowy & Kabir Vidyarthi"
 readings = ["mc2"]
 paper_slides = "https://canvas.oregonstate.edu/courses/2028992/files/116007428?module_item_id=26480379"
 
