@@ -4,9 +4,12 @@ title = "Tiered-Latency DRAM"
 bio = """ """
 [[extra.authors]]
 name = "John Aebi (leader)"
+[[extra.authors]]
 name = "Deptmer Martin Ashley Jr. (leader)"
 name = "Soren Emmons (scribe)"
+[[extra.authors]]
 name = "Brian Castellon Rosales (scribe)"
+[[extra.authors]]
 name = "Jared Ho (blogger)"
 +++
 
