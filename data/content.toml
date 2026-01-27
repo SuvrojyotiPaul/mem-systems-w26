@@ -50,7 +50,7 @@ paper_slides = "https://canvas.oregonstate.edu/courses/2028992/files/116220245?m
 [[classes]]
 lesson = 7
 title = "NUMA"
-leader = "Lab 1: TBD"
+leader = "Lab 1: Allen Lee"
 readings = ["nuksm"]
 
 [[classes]]
