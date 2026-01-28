@@ -39,6 +39,7 @@ lesson = 5
 leader = "Lab 3: Thomas Pinon"
 readings = ["rrip"]
 paper_slides = "https://canvas.oregonstate.edu/courses/2028992/files/116127372?module_item_id=26489988"
+blog_link = "../blog/high-performance-cache-replacement-using-rrip"
 
 [[classes]]
 lesson = 6
