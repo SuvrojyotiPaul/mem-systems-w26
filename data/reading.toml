@@ -1,32 +1,38 @@
 [reading]
 name = "How to Read a Paper"
 link = "http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"
-details = "S. Keshav. SIGCOMM CCR"
+author = "S. Keshav"
+venue = "SIGCOMM CCR"
 
 [lee-tiered]
 name = "Tiered-Latency DRAM: A Low Latency and Low Cost DRAM Architecture"
 link = "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6522354&tag=1"
-details = "Lee et al., HPCA '13"
+author = "Lee et al."
+venue = "HPCA '13"
 
 [liu-raidr]
 name = "RAIDR: Retention-Aware Intelligent DRAM Refresh (Sections 1 & 2)"
 link = "https://users.ece.cmu.edu/~omutlu/pub/raidr-dram-refresh_isca12.pdf"
-details = "Jamie Liu, Ben Jaiyen, Richard Veras, and Onur Mutlu. ISCA '12"
+author = "Jamie Liu, Ben Jaiyen, Richard Veras, and Onur Mutlu"
+venue = "ISCA '12"
 
 [kim-subarray]
 name = "A Case for Exploiting Subarray-level Parallelism (SALP) in DRAM (Sections 1 & 2)"
 link = "https://ieeexplore.ieee.org/document/6237032"
-details = "Yoongu Kim, Vivek Seshadri, Donghyuk Lee, Jamie Liu, and Onur Mutlu. ISCA '12"
+author = "Yoongu Kim, Vivek Seshadri, Donghyuk Lee, Jamie Liu, and Onur Mutlu"
+venue = "ISCA '12"
 
 [piranha]
 name = "Piranha: A Scalable Architecture Based on Single-Chip Multiprocessing"
 link = "https://barroso.org/publications/isca00.pdf"
-details = "Barroso et al., ISCA 2000"
+author = "Barroso et al."
+venue = "ISCA 2000"
 
 [mosaic]
 name = "Mosaic Pages: Big TLB Reach with Small Pages"
 link = "https://www.cs.yale.edu/homes/abhishek/ksriram-asplos23.pdf"
-details = "Gosakan et al. ASPLOS '23"
+author = "Gosakan et al."
+venue = "ASPLOS '23"
 
 [ostep]
 name = "Operating Systems: Three Easy Pieces (Chs. 18-20)"
@@ -35,63 +41,74 @@ link = "https://pages.cs.wisc.edu/~remzi/OSTEP/"
 [slave-memories]
 name = "Slave Memories and Dynamic Storage Allocation"
 link = "https://ieeexplore.ieee.org/document/4038419"
-details = "Maurice Wilkes. IEEE Transacitons on Electonic Computers, April 1965."
+author = "Maurice Wilkes"
+venue = "IEEE Transactions on Electronic Computers, April 1965"
 
 [sls]
 name = "One-Level Storage System"
 link = "https://ieeexplore.ieee.org/document/5219356"
-details = "Kilburn et al., IRE Transactions on Electronic Computers, April 1962."
+author = "Kilburn et al."
+venue = "IRE Transactions on Electronic Computers, April 1962"
 
 [vax-tlb]
 name = "Performance of the VAX-11/780 translation buffer: simulation and measurement"
 link = "https://dl.acm.org/doi/10.1145/214451.214455"
-details = "Douglas Clark and Joel Emer. Transactions on Computer Systems 3(1), 1985."
+author = "Douglas Clark and Joel Emer"
+venue = "Transactions on Computer Systems 3(1), 1985"
 
 [tlb-numa]
 name = "Scalable and Effective Page-table and TLB management on NUMA Systems"
 link = "https://www.usenix.org/conference/atc24/presentation/gao-bin-scalable"
-details = "Gao et al. USENIX ATC '24"
+author = "Gao et al."
+venue = "USENIX ATC '24"
 
 [nuksm]
 name = "nuKSM: NUMA-aware Memory De-duplication on Multi-socket Servers"
 link = "https://ieeexplore.ieee.org/abstract/document/9563037"
-details = "Panda et al. PACT '21"
+author = "Panda et al."
+venue = "PACT '21"
 
 [fmi]
 name = "FMI: Fast and Cheap Message Passing for Serverless Functions"
 link = "https://arxiv.org/pdf/2305.08763"
-details = "Copik et al. ICS '23"
+author = "Copik et al."
+venue = "ICS '23"
 
 [barrel]
 name = "The Multikernel: A new OS architecture for scalable multicore systems"
 link = "https://barrelfish.org/publications/barrelfish_sosp09.pdf"
-details = "Baumann et al. SOSP '09"
+author = "Baumann et al."
+venue = "SOSP '09"
 
 [e2e]
 name = "End-to-end Sequential Consistency"
 link = "https://ieeexplore.ieee.org/document/6237045"
-details = "Singh et al. ISCA '12"
+author = "Singh et al."
+venue = "ISCA '12"
 
 [tiers]
 name = "Managing Memory Tiers with CXL in Virtualized Environments"
 link = "https://www.usenix.org/conference/osdi24/presentation/zhong-yuhong"
-details = "Zhong et al. OSDI '24"
+author = "Zhong et al."
+venue = "OSDI '24"
 
 [disagg]
 name = "Disaggregated Memory for Expansion and Sharing in Blade Servers"
 link = "https://dl.acm.org/doi/10.1145/1555754.1555789"
-details = "Lim et al. ISCA '09"
+author = "Lim et al."
+venue = "ISCA '09"
 
 [fastswap]
 name = "Can far memory improve job throughput?"
 link = "https://dl.acm.org/doi/10.1145/3342195.3387522"
-details = "Amaro et al. EuroSys '20"
-
+author = "Amaro et al."
+venue = "EuroSys '20"
 
 [trackfm]
 name = "TrackFM: Far-out Compiler Support for a Far Memory World"
 link = "https://dl.acm.org/doi/10.1145/3617232.3624856"
-details = "Tauro et al. ASPLOS '24"
+author = "Tauro et al."
+venue = "ASPLOS '24"
 
 [eeg]
 name = "SIGPLAN Empirical Evaluation Guidelines"
@@ -100,112 +117,130 @@ link = "https://www.sigplan.org/Resources/EmpiricalEvaluation/"
 [drust]
 name = "DRust: Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency"
 link = "https://www.usenix.org/conference/osdi24/presentation/ma-haoran"
-details = "Ma et al. OSDI '24"
+author = "Ma et al."
+venue = "OSDI '24"
 
 [raft]
 name = "In Search of an Understandable Consensus Algorithm"
 link = "https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14"
-details = "Diego Ongaro and John Ousterhout. USENIX ATC '14"
+author = "Diego Ongaro and John Ousterhout"
+venue = "USENIX ATC '14"
 
 [hotstuff]
 name = "HotStuff: BFT Consensus with Linearity and Responsiveness"
 link = "https://dl.acm.org/doi/10.1145/3293611.3331591"
-details = "Yin et al. PODC '19"
+author = "Yin et al."
+venue = "PODC '19"
 
 [ivy]
 name = "IVY: A Shared Virtual Memory System for Parallel Computing"
 link = "https://systems.cs.columbia.edu/ds2-class/papers/li-ivy.pdf"
-details = "Kai Li. ICPP '88"
+author = "Kai Li"
+venue = "ICPP '88"
 
 [segcache]
 name = "Segcache: A Memory-efficient and Scalable In-memory Key-value Cache for Small Objects"
 link = "https://www.usenix.org/conference/nsdi21/presentation/yang-juncheng"
-details = "Juncheng Yang, Yao Yue, and Rashmi Yinayak. NSDI '21"
+author = "Juncheng Yang, Yao Yue, and Rashmi Yinayak"
+venue = "NSDI '21"
 
 [empirical]
 name = "An Empirical Guide to the Behavior and Use of Scalable Persistent Memory"
 link = "https://www.usenix.org/conference/fast20/presentation/yang"
-details = "Yang et al. FAST '20"
+author = "Yang et al."
+venue = "FAST '20"
 
 [wsp]
 name = "Whole-System Persistence"
 link = "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/paper-updated.pdf"
-details = "Narayanan and Hodson, ASPLOS '12"
+author = "Narayanan and Hodson"
+venue = "ASPLOS '12"
 
 [simple]
 name = "SimplePIM: A Software Framework for Productive and Efficient Processing-in-Memory"
 link = "https://people.inf.ethz.ch/omutlu/pub/SimplePIM_pact23.pdf"
-details = "Chen et al. PACT '23"
+author = "Chen et al."
+venue = "PACT '23"
 
 [drepper]
 name = "What Every Programmer Should Know About Memory (Sec 2)"
 link = "https://people.freebsd.org/~lstewart/articles/cpumemory.pdf"
-details = "Ulrich Drepper, 2007"
+author = "Ulrich Drepper, 2007"
 
 [hbm-errors]
 name = "Removing Obstacles before Breaking Through the Memory Wall: A Close Look at HBM Errors in the Field"
 link = "https://www.usenix.org/system/files/atc24-wu-ronglong.pdf"
-details = "Wu et al., USENIX ATC '24"
+author = "Wu et al."
+venue = "USENIX ATC '24"
 
 [mc2]
 name = "(MC)² Lazy MemCopy at the Memory Controller"
 link= "https://dl.acm.org/doi/10.1109/ISCA59077.2024.00084"
-details = "Kamath et al., ISCA '24"
+author = "Kamath et al."
+venue = "ISCA '24"
 
-[rrip] 
+[rrip]
 name = "High Performance Cache Replacement Using Re-reference Interval Prediction (RRIP)"
 link = "https://dl.acm.org/doi/10.1145/1815961.1815971"
-details = "Jaleel et al., ISCA '10"
+author = "Jaleel et al."
+venue = "ISCA '10"
 
 [rowhammer]
 name = "Flipping bits in memory without accessing them: an experimental study of DRAM disturbance errors"
 link = "https://dl.acm.org/doi/10.1145/2678373.2665726"
-details = "Kim et al., ISCA '14"
+author = "Kim et al."
+venue = "ISCA '14"
 
 [mix-tlb]
 name = "Efficient Address Translation for Architectures with Multiple Page Sizes"
 link = "https://dl.acm.org/doi/pdf/10.1145/3093336.3037704"
-details = "Cox and Bhattacharjee, ASPLOS '17"
+author = "Cox and Bhattacharjee"
+venue = "ASPLOS '17"
 
 [tmo]
 name = "TMO: transparent memory offloading in datacenters"
 link = "https://dl.acm.org/doi/10.1145/3503222.3507731"
-details = "Weiner et al. ASPLOS '22"
+author = "Weiner et al."
+venue = "ASPLOS '22"
 
-[memento] 
+[memento]
 name = "Memento: Architectural Support for Ephemeral Memory Management in Serverless Environments"
 link = "https://www.cs.cmu.edu/~dskarlat/publications/memento_micro23.pdf"
-details = "Wang et al., MICRO '23"
+author = "Wang et al."
+venue = "MICRO '23"
 
 [pond]
 name = "Pond: CXL-Based Memory Pooling Systems for Cloud Platforms"
 link = "https://dl.acm.org/doi/10.1145/3575693.3578835"
-details = "Li et al., ASPLOS '23"
+author = "Li et al."
+venue = "ASPLOS '23"
 
 [tpp]
 name = "TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory"
 link = "https://dl.acm.org/doi/10.1145/3582016.3582063"
-details = "Maruf et al., ASPLOS '23"
+author = "Maruf et al."
+venue = "ASPLOS '23"
 
 [cxlfork]
 name = "CXLfork: Fast Remote Fork over CXL Fabrics"
 link = "https://tianyin.github.io/pub/cxlfork.pdf"
-details = "Alverti et al., ASPLOS '25"
+author = "Alverti et al."
+venue = "ASPLOS '25"
 
-[vllm] 
+[vllm]
 name = "Efficient Memory Management for Large Language Model Serving with PagedAttention"
 link = "https://dl.acm.org/doi/10.1145/3600006.3613165"
-details = "Kwon et al., SOSP '23"
+author = "Kwon et al."
+venue = "SOSP '23"
 
-[vattention] 
+[vattention]
 name = "vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention"
 link = "https://dl.acm.org/doi/10.1145/3669940.3707256"
-details = "Prabhu et al., ASPLOS '25"
+author = "Prabhu et al."
+venue = "ASPLOS '25"
 
 [cent]
 name = "PIM Is All You Need: A CXL-Enabled GPU-Free System for Large Language Model Inference"
 link = "https://dl.acm.org/doi/pdf/10.1145/3676641.3716267"
-details = "Gu et al., ASPLOS '25"
-
-
-
+author = "Gu et al."
+venue = "ASPLOS '25"

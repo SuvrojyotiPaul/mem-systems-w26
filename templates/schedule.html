@@ -46,14 +46,17 @@
           {% set reading = readings[rdkey] %}
           <li>
             <a href="{{reading.link}}">{{reading.name}}</a>
-            {% if reading.details %}
-            <br>{{reading.details}}
+            {% if reading.author %}
+            <br><span class="paper-author">{{ reading.author }}</span>
+            {% endif %}
+            {% if reading.venue %}
+            <span class="venue-tag">{{ reading.venue }}</span>
             {% endif %}
             {% if class.paper_slides %}
-            <br>[<a href="{{class.paper_slides}}">presentation slides</a>]
+            <br><a class="schedule-btn slides" href="{{class.paper_slides}}">slides</a>
             {% endif %}
             {% if class.blog_link %}
-            <br>[<a href="{{class.blog_link}}">blog post</a>]
+            <a class="schedule-btn blog" href="{{class.blog_link}}">blog post</a>
             {% endif %}
           </li>
         {% endfor %}
@@ -83,4 +86,34 @@
   </tbody>
 </table>
 
+<script>
+(function() {
+  var months = {January:0, February:1, March:2, April:3, May:4, June:5,
+                July:6, August:7, September:8, October:9, November:10, December:11};
+  var rows = document.querySelectorAll('.schedule tbody tr');
+  var today = new Date();
+  today.setHours(0,0,0,0);
+  var found = false;
+  for (var i = 0; i < rows.length; i++) {
+    var th = rows[i].querySelector('th');
+    if (!th) continue;
+    var monthEl = th.querySelector('.month');
+    var dayEl = th.querySelector('.day');
+    if (!monthEl || !dayEl) continue;
+    var monthText = monthEl.textContent.trim();
+    var dayText = dayEl.textContent.trim();
+    if (!monthText || !dayText) continue;
+    var m = months[monthText];
+    if (m === undefined) continue;
+    var d = parseInt(dayText, 10);
+    if (isNaN(d)) continue;
+    var classDate = new Date(2026, m, d);
+    if (classDate >= today) {
+      rows[i].classList.add('upcoming');
+      found = true;
+      break;
+    }
+  }
+})();
+</script>
 {% endblock main %}
