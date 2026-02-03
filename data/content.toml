@@ -47,6 +47,7 @@ lesson = 6
 leader = "Lab 4: Mykyta Synytsia and Isaac Lonergan"
 readings = ["piranha"]
 paper_slides = "https://canvas.oregonstate.edu/courses/2028992/files/116220245?module_item_id=26497553"
+blog_link = "../blog/piranha-a-scalable-architecture-based-on-single-chip-multiprocessing"
 
 [[classes]]
 lesson = 7
